@@ -1,3 +1,4 @@
 {
-  "mongoURI": "mongodb://localhost:27017/social_network"
+  "mongoURI": "mongodb://localhost:27017/social_network",
+  "jwtSecret": "kawabanga"
 }
