@@ -10,7 +10,7 @@ const User = require('../../models/User');
 
 // @route   GET auth route
 // @desc    a test route of the auth router
-// @access  Public route
+// @access  Private route
 router.get('/', auth, async (req, res) => {
   try {
     const user = await User.findById(req.user.id).select('-password');

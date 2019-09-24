@@ -1,4 +1,6 @@
 {
   "mongoURI": "mongodb://localhost:27017/social_network",
-  "jwtSecret": "kawabanga"
+  "jwtSecret": "kawabanga",
+  "githubClientId": "0c49ed8c74904aff01a5",
+  "githubSecret": "47eaba207e4d02c76d3f10b48715e9def681c586"
 }
